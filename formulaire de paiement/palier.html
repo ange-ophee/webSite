@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="autre.css">
+    <title>Formulaire d'achat de billets</title>
+</head>
+<body>
+    <div class="card">
+    <form action="traitement.php" method="post">
+        <h2>Purchase Tickets</h2>
+        <label for="event">Event</label>
+        <select id="event" name="event">
+            <option value="orange">orange</option>
+            <!-- Ajoutez d'autres options ici -->
+        </select>
+
+        <label for="ticketType">Ticket Type</label>
+        <select id="ticketType" name="ticketType">
+            <option value="mkvmlfk">mkvmlfk - $29999.00</option>
+            <!-- Ajoutez d'autres options ici -->
+        </select>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" value="2">
+
+        <label for="phone">Orange Money Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <button type="submit">Purchase</button>
+    </div>
+    </form>
+</body>
+</html>

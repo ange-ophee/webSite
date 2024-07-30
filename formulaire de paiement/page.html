@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link   rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>formulaire de paiement</h3>
+        <p>vous etes sur le point de confimer un achat</p>
+        <h4>veillez entrer les informations suivantes</h4>
+    <form action="/process_payment" method="post">
+        <label for="name">Nom complet :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone_number">Numéro de téléphone :</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+
+        <label for="payment_method">Méthode de paiement :</label>
+        <select id="payment_method" name="payment_method">
+        <option value="orange_money">Orange Money</option>
+        <option value="mtn_money">MTN Mobile Money</option>
+        </select>
+
+        <button type="submit">Payer</button>
+
+        <a href="palier.html">
+            <button type="button">Retour</button>
+        </a>
+        </form>
+    </div>
+</body>
+</html>

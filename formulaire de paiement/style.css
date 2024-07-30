@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    align-items: center;
+    margin: 500px;
+}
+.container {
+    background-color: rgb(238, 206, 206);
+    padding:30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(69, 13, 209, 0.842);
+    max-width: 400px;
+    width:100%;
+    margin: 0 auto;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
